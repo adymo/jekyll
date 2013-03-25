@@ -74,6 +74,7 @@ module Jekyll
 
     'markdown_ext'  => 'markdown,mkd,mkdn,md',
     'textile_ext'   => 'textile',
+    'mediawiki_ext' => 'mediawiki, wiki',
 
     'excerpt_separator' => "\n\n",
 

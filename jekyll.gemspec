@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('pygments.rb', "~> 0.3.2")
   s.add_runtime_dependency('commander', "~> 4.1.3")
   s.add_runtime_dependency('safe_yaml', "~> 0.7.0")
+  s.add_runtime_dependency('mediacloth', "~> 0.6")
 
   s.add_development_dependency('rake', "~> 10.0.3")
   s.add_development_dependency('rdoc', "~> 3.11")
@@ -76,6 +77,7 @@ Gem::Specification.new do |s|
     lib/jekyll/converters/identity.rb
     lib/jekyll/converters/markdown.rb
     lib/jekyll/converters/textile.rb
+    lib/jekyll/converters/mediawiki.rb
     lib/jekyll/convertible.rb
     lib/jekyll/core_ext.rb
     lib/jekyll/draft.rb
